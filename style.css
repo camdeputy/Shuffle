@@ -10,3 +10,50 @@ body {
     margin: auto;    
     display: block;
 }
+#wrapper2 {
+    overflow: hidden; /* add this to contain floated children */
+    width: 100%;
+}
+#wrap {
+    overflow: hidden; /* add this to contain floated children */
+    width: 100%;
+}
+#outer {
+    float: left;
+}
+#inner {
+    float: left;
+}
+#title {
+    float: left;
+    margin-left: 15vw;
+    margin-top: 25px;
+}
+#back {
+    float: left;
+    margin-left: 3vw;
+    margin-top: 20px;
+}
+h1 {
+    color: black;
+}
+#logo {
+    margin-top: 20px;
+    margin-left: 3vw;
+}
+#content {
+    margin-top: 20px;
+    margin-left: 3vw;
+    width: 250px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+#bookGrid {
+    color: black;
+    margin-left: 15px;
+    height: 550px;
+    width: 1000px;
+    background-color: #F4F4F4;
+    border: solid;
+}
