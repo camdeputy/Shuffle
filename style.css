@@ -5,3 +5,8 @@ body {
 .bg-header {
     background-color: #FFF4CF;
 }
+
+.main-content img {
+    margin: auto;    
+    display: block;
+}
