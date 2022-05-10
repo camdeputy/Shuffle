@@ -6,12 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="d-flex">
-        <h1>Shuffle</h1>
-        <h3>This user has accepted your shuffle request!</h3>
+    <nav class="navbar navbar-expand-lg navbar-light bg-header">
+        <a class="navbar-brand" href="./index.html">
+            <div class="d-flex align-items-center">
+                <img src="./assets/simplebook.png" width="70" height="50" class="d-inline-block align-top" alt="">
+                <h1 class="ml-2">Shuffle</h1>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <div class="mt-4">
+        <div class="ml-4">
+            <h1>
+                This user has accepted your Shuffle!
+            </h1>
+        </div>
+        <ol>
+            <li>Head to <span style="color: blue; text-decoration: underline;">pirateship.com</span> for your shipping
+                label</li>
+            <li>Take your textbook to a shipping center - Final cost: $7.65</li>
+            <li>Wait for your textbook to arrive - payments processed upon shipping</li>
+        </ol>
+        <h3 class="ml-4">Choose a payment method:</h3>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <img class="mr-5" height="200" width="200" src="./assets/credit-card-black-png-0.png"
+                alt="credit-card logo">
+            <p>Add a credit card</p>
+        </div>
+        <img class="mr-5" height="200" width="300" src="./assets/Apple_Pay-Logo.wine.png" alt="credit-card logo">
+        <img class="mr-5" height="200" width="200" src="./assets/paypal_PNG22.png" alt="credit-card logo">
+        <div class="text-center">
+            <img class="" height="200" width="200"
+                src="./assets/blue-bank-icon-in-flat-style-with-the-building-facade-with-three--26.png"
+                alt="credit-card logo">
+            <p>Add a bank account</p>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center mt-5">
+        <h3 class="text-center mr-5">Thanks for using Shuffle!</h3>
+        <a href="./index.html">
+            <button type="button" class="btn btn-secondary">Return to Marketplace</button>
+        </a>
     </div>
 </body>
 
